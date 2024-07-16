@@ -5,15 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <div class="container">
-        <div class="header">Header</div>
+        <header>
+            <form action="" method="get">
+                <search class="search-container">
+                    <button class="search"></button>
+                    <input type="search" id="search" name="search" placeholder="Search...">
+                </search>
+            </form>
+            <div class="admin">
+                <img src="Images/bell-ring-outline.svg" alt="alert icon" class="bell-icon">
+                <img src="Images/Profile_pic.png" alt="user admin" class="user-profile">
+                <p class="user-name">Renny Mark</p>
+            </div>
+            <div class="user">
+                <img src="Images/Profile_pic.png" alt="user admin" class="profile-pic">
+                <p class="Message">Hi there,</p>
+                <p class="user-detail">Renny Mark (@rennymark)</p>
+            </div>
+            <div class="buttons">
+                <button class="admin-btn">New</button>
+                <button class="admin-btn">Upload</button>
+                <button class="admin-btn">Share</button>
+            </div>
+        </header>
         <div class="sidebar">
             <div class="icons">
                 <div class="logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#eee">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#eee" id="logo">
                         <title>view-dashboard</title>
                         <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
                     </svg>
@@ -103,50 +124,38 @@
                             <p>Privacy</p>
                         </a>
                     </div>
-                    <!-- <span class="material-symbols-outlined">
-                        settings
-                    </span>
-                    <p>Settings</p>
-                    <span class="material-symbols-outlined">
-                            support_agent
-                    </span>
-                    <p>Support</p>
-                    <span class="material-symbols-outlined">
-                                verified_user
-                    </span>
-                    <p>Privacy</p> -->
                 </div>
             </div>
         </div>
         <div class="main-content">
             <div class="projects">
                 <div class="project-text">
-                    <p>Your Projects</p>
+                    <p class="project-title">Your Projects</p>
                 </div>
                 <div class="project-cards">
                     <div class="cards">
-                        <p class="title">Card Title</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                        <p class="title">Super Cool Project</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud...</p>
                     </div>
                     <div class="cards">
-                        <p class="title">Card Title</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                        <p class="title">Less Cool Project</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud...</p>
                     </div>
                     <div class="cards">
-                        <p class="title">Card Title</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                        <p class="title">Impossible App</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud...</p>
                     </div>
                     <div class="cards">
-                        <p class="title">Card Title</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                        <p class="title">Easy Peasy App</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud...</p>
                     </div>
                     <div class="cards">
-                        <p class="title">Card Title</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                        <p class="title">Ad Blocker</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud...</p>
                     </div>
                     <div class="cards">
-                        <p class="title">Card Title</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                        <p class="title">Money Maker</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                     </div>
                 </div>
             </div>
