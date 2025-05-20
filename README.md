@@ -18,7 +18,8 @@ A clean, responsive **Admin Dashboard** built with **HTML** and **CSS**. This pr
 ---
 
 ## 📁 Project Structure
-
+```
 ├── index.html           # Main HTML file
 ├── style.css            # Main stylesheet
 ├── Images/              # Icons and images used in the dashboard
+```
