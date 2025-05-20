@@ -22,8 +22,3 @@ A clean, responsive **Admin Dashboard** built with **HTML** and **CSS**. This pr
 ├── index.html           # Main HTML file
 ├── style.css            # Main stylesheet
 ├── Images/              # Icons and images used in the dashboard
-│   ├── magnify.svg
-│   ├── Cards_Icons/
-│   │   ├── star-plus-outline.svg
-│   │   ├── eye-plus-outline.svg
-│   │   └── source-fork.svg
